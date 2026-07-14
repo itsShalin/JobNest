@@ -4,11 +4,10 @@ JobNest is a full-stack job portal built using the MERN stack. The platform allo
 
 ---
 
-
-
 # 🚀 Features
 
 ## 👤 Authentication
+
 - User Registration
 - User Login
 - JWT Authentication
@@ -18,6 +17,7 @@ JobNest is a full-stack job portal built using the MERN stack. The platform allo
 ---
 
 ## 💼 Job Management
+
 - Create New Job Posts
 - Edit Existing Job Posts
 - Delete Job Posts
@@ -26,6 +26,7 @@ JobNest is a full-stack job portal built using the MERN stack. The platform allo
 ---
 
 ## 🔍 Job Search
+
 - Browse All Available Jobs
 - Search Jobs by Title
 - Filter Jobs by Category
@@ -34,6 +35,7 @@ JobNest is a full-stack job portal built using the MERN stack. The platform allo
 ---
 
 ## 📨 Job Applications
+
 - Apply for Jobs
 - Prevent Duplicate Applications
 - View Applied Jobs
@@ -42,6 +44,7 @@ JobNest is a full-stack job portal built using the MERN stack. The platform allo
 ---
 
 ## 👨‍💻 User Profile
+
 - Edit Personal Information
 - Update Career Goals
 - Manage Skills
@@ -53,6 +56,7 @@ JobNest is a full-stack job portal built using the MERN stack. The platform allo
 ---
 
 ## 📱 Responsive Design
+
 - Desktop Friendly
 - Tablet Optimized
 - Mobile Responsive
@@ -61,6 +65,7 @@ JobNest is a full-stack job portal built using the MERN stack. The platform allo
 ---
 
 ## 📄 Pages
+
 - Home
 - Jobs
 - Job Details
@@ -69,8 +74,8 @@ JobNest is a full-stack job portal built using the MERN stack. The platform allo
 - Edit Job
 - Profile
 - My Applications
-- About 
-- Contact 
+- About
+- Contact
 - Login
 - Register
 
@@ -78,8 +83,8 @@ JobNest is a full-stack job portal built using the MERN stack. The platform allo
 
 # 🛠️ Technologies Used
 
-
 ## Frontend
+
 - React.js
 - React Router DOM
 - Axios
@@ -88,6 +93,7 @@ JobNest is a full-stack job portal built using the MERN stack. The platform allo
 - Responsive Design
 
 ## Backend
+
 - Node.js
 - Express.js
 - MongoDB
@@ -95,6 +101,7 @@ JobNest is a full-stack job portal built using the MERN stack. The platform allo
 - JWT Authentication
 
 ## Database
+
 - MongoDB Atlas
 
 ---
@@ -120,7 +127,7 @@ JobNest
     │   ├── pages
     │   ├── services
     │   ├── context
-    │   └── App.jsx    
+    │   └── App.jsx
 ```
 
 ---
@@ -130,7 +137,7 @@ JobNest
 ## Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/jobnest.git
+git clone https://github.com/itsShalin/JobNest.git
 ```
 
 ---
@@ -169,16 +176,16 @@ JWT_SECRET=your_secret_key
 
 ---
 
-
-
 # 🌐 Live Demo
 
 Frontend:
+
 ```
 Coming soon
 ```
 
 Backend:
+
 ```
 Coming soon
 ```
