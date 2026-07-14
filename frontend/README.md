@@ -181,13 +181,13 @@ JWT_SECRET=your_secret_key
 Frontend:
 
 ```
-Coming soon
+Not deployed
 ```
 
 Backend:
 
 ```
-Coming soon
+Not deployed
 ```
 
 ---
@@ -224,9 +224,9 @@ Coming soon
 
 **Rasheda Jahan**
 
-Bachelor of Computer Science & Engineering
+Bachelor of Computer Science & Engineering Student 
 
-MERN Stack Developer
+
 
 ---
 
