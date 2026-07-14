@@ -1,0 +1,156 @@
+.hero{
+    min-height:85vh;
+    background:var(--cream);
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    gap:60px;
+
+    padding:80px 8%;
+
+    overflow:hidden;
+}
+
+.hero-content{
+    flex:1;
+    max-width:600px;
+}
+
+.hero-content h1{
+    color:var(--brown);
+    font-size:clamp(36px,6vw,60px);
+    line-height:1.1;
+    margin-bottom:25px;
+}
+
+.hero-content p{
+    color:var(--text);
+    font-size:clamp(16px,2vw,20px);
+    line-height:1.7;
+    margin-bottom:35px;
+}
+
+.hero-buttons{
+    display:flex;
+    flex-wrap:wrap;
+    gap:18px;
+}
+
+.hero-buttons a{
+    padding:14px 30px;
+    border-radius:12px;
+    font-weight:600;
+    transition:var(--transition);
+}
+
+.hero-buttons a:first-child{
+    background:var(--brown);
+    color:white;
+}
+
+.hero-buttons a:first-child:hover{
+    background:var(--brown-light);
+    transform:translateY(-3px);
+}
+
+.hero-buttons a:last-child{
+    border:2px solid var(--brown);
+    color:var(--brown);
+}
+
+.hero-buttons a:last-child:hover{
+    background:var(--brown);
+    color:white;
+    transform:translateY(-3px);
+}
+
+.hero-icon{
+    flex-shrink:0;
+
+    width:clamp(170px,30vw,300px);
+    aspect-ratio:1/1;
+
+    background:white;
+
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:clamp(70px,10vw,120px);
+
+    box-shadow:var(--shadow);
+
+    animation:float 3s ease-in-out infinite;
+}
+
+@keyframes float{
+
+    0%{
+        transform:translateY(0);
+    }
+
+    50%{
+        transform:translateY(-15px);
+    }
+
+    100%{
+        transform:translateY(0);
+    }
+
+}
+
+
+
+@media(max-width:992px){
+
+    .hero{
+        gap:40px;
+        padding:70px 6%;
+    }
+
+}
+
+
+
+@media(max-width:768px){
+
+    .hero{
+        flex-direction:column-reverse;
+        text-align:center;
+
+        padding:60px 24px;
+        gap:40px;
+    }
+
+    .hero-content{
+        max-width:100%;
+    }
+
+    .hero-buttons{
+        justify-content:center;
+    }
+
+}
+
+
+
+@media(max-width:480px){
+
+    .hero{
+        padding:50px 18px;
+    }
+
+    .hero-buttons{
+        flex-direction:column;
+    }
+
+    .hero-buttons a{
+        width:100%;
+        text-align:center;
+    }
+
+}

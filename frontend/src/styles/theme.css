@@ -1,0 +1,27 @@
+:root {
+
+    /* Background Colors */
+    --cream: #F8F4EC;
+    --white: #FFFDF8;
+
+    /* Main Theme */
+    --brown: #5C3A21;
+    --brown-light: #8B5E3C;
+    --gold: #C49A6C;
+
+    /* Text */
+    --text: #2E2A27;
+    --text-light: #6B5B4B;
+
+    /* Border */
+    --border: #E5D8C7;
+
+    /* Shadow */
+    --shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+
+    /* Radius */
+    --radius: 15px;
+
+    /* Transition */
+    --transition: 0.3s ease;
+}

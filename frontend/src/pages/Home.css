@@ -1,0 +1,416 @@
+.hero-icon{
+    width: clamp(80px, 15vw, 120px);
+    aspect-ratio: 1 / 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-shrink: 0;
+
+    border-radius: 50%;
+
+    font-size: clamp(40px, 7vw, 60px);
+
+    width:90px;
+    aspect-ratio:1;
+}
+
+
+.latest-jobs{
+
+    padding:80px 8%;
+
+    background:white;
+
+}
+
+
+
+.latest-jobs h2{
+
+    text-align:center;
+
+    font-size:38px;
+
+    color:var(--brown);
+
+    margin-bottom:40px;
+
+}
+
+
+
+.job-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+}
+
+
+
+.job-card{
+
+    background:var(--cream);
+
+    padding:30px;
+
+    border-radius:20px;
+
+    box-shadow:var(--shadow);
+
+    transition:var(--transition);
+
+    display:flex;
+
+    flex-direction:column;
+
+    height:100%;
+
+}
+
+
+
+.job-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+
+
+.job-card h3{
+
+    color:var(--brown);
+
+    font-size:24px;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.job-card p{
+
+    margin:12px 0;
+
+    color:var(--text);
+
+}
+
+
+
+.job-card a{
+
+    display:inline-block;
+
+    margin-top:auto;
+
+    background:var(--brown);
+
+    color:white;
+
+    padding:10px 20px;
+
+    border-radius:8px;
+
+    font-weight:600;
+
+    text-align:center;
+
+}
+
+
+
+.job-card a:hover{
+
+    background:var(--brown-light);
+
+}
+
+
+
+
+
+.category-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+
+    gap:25px;
+
+    margin-top:40px;
+
+}
+
+
+.category-card{
+
+    background:var(--cream);
+
+    padding:35px 20px;
+
+    border-radius:18px;
+
+    text-align:center;
+
+    box-shadow:var(--shadow);
+
+    transition:var(--transition);
+
+    cursor:pointer;
+
+}
+
+
+.category-card:hover{
+
+    transform:translateY(-8px);
+
+    background:#EFE4D4;
+
+}
+
+
+.category-card span{
+
+    font-size:45px;
+
+}
+
+
+.category-card h3{
+
+    margin-top:18px;
+
+    color:var(--brown);
+
+    font-size:20px;
+
+}
+
+
+
+
+.feature-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+
+    gap:30px;
+
+    margin-top:40px;
+
+}
+
+
+.feature-card{
+
+    background:var(--cream);
+
+    padding:30px;
+
+    border-radius:20px;
+
+    box-shadow:var(--shadow);
+
+    transition:var(--transition);
+
+}
+
+
+.feature-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+
+.feature-card h3{
+
+    color:var(--brown);
+
+    margin-bottom:15px;
+
+}
+
+
+.feature-card p{
+
+    color:var(--brown);
+
+    line-height:1.7;
+
+}
+
+.stats{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:60px;
+    flex-wrap:wrap;
+}
+
+
+.stats-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+    margin-top:40px;
+
+}
+
+
+.stats-grid div{
+
+    background:var(--brown);
+
+    color:white;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    box-shadow:var(--shadow);
+
+    transition:var(--transition);
+
+}
+
+
+.stats-grid div:hover{
+
+    transform:translateY(-8px);
+
+}
+
+
+.stats-grid h2{
+
+    font-size:42px;
+
+    margin-bottom:10px;
+
+    color:#F8F4EC;
+
+}
+
+
+.stats-grid p{
+
+    font-size:18px;
+
+    opacity:.9;
+
+}
+
+
+
+
+section{
+
+    padding:80px 8%;
+
+}
+
+
+section h2{
+
+    text-align:center;
+
+    color:var(--brown);
+
+    font-size:40px;
+
+    margin-bottom:10px;
+
+}
+
+.why-section{
+
+    background:white;
+
+}
+
+
+
+
+@media (max-width: 1024px){
+
+    .job-grid,
+    .stats-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+}
+
+@media (max-width:768px){
+
+    section{
+        padding:60px 5%;
+    }
+
+    section h2{
+        font-size:32px;
+    }
+
+    .latest-jobs h2{
+        font-size:32px;
+    }
+
+    .job-grid,
+    .stats-grid{
+        grid-template-columns:1fr;
+    }
+
+    .stats{
+        gap:25px;
+    }
+
+    .hero-icon{
+        width:90px;
+        height:90px;
+        min-width:90px;
+        min-height:90px;
+    }
+
+}
+
+@media (max-width:480px){
+
+    section{
+        padding:45px 18px;
+    }
+
+    section h2{
+        font-size:28px;
+    }
+
+    .job-card,
+    .feature-card,
+    .category-card{
+        padding:22px;
+    }
+
+    .stats-grid div{
+        padding:25px;
+    }
+
+    .stats-grid h2{
+        font-size:32px;
+    }
+
+}

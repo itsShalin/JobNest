@@ -1,0 +1,202 @@
+.create-job-page {
+
+    min-height:100vh;
+
+    background:#f5ead7;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:40px;
+
+}
+
+
+
+.job-form-card {
+
+
+    width:700px;
+
+    background:#fff8ed;
+
+    padding:40px;
+
+    border-radius:25px;
+
+    box-shadow:0 15px 40px rgba(78,52,46,0.2);
+
+}
+
+
+
+.job-form-card h1 {
+
+    text-align:center;
+
+    color:#5d4037;
+
+    font-size:38px;
+
+}
+
+
+
+.subtitle {
+
+    text-align:center;
+
+    color:#8d6e63;
+
+    margin-bottom:30px;
+
+}
+
+
+
+.form-grid {
+
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:20px;
+
+
+}
+
+
+
+.job-input,
+.job-textarea {
+
+
+width:100%;
+
+padding:14px 18px;
+
+border-radius:12px;
+
+border:2px solid #d7ccc8;
+
+background:#fff;
+
+font-size:15px;
+
+outline:none;
+
+transition:0.3s;
+
+
+}
+
+
+
+.job-input:focus,
+.job-textarea:focus {
+
+
+border-color:#795548;
+
+box-shadow:0 0 10px rgba(121,85,72,0.2);
+
+
+}
+
+
+
+.job-textarea {
+
+
+margin-top:20px;
+
+height:130px;
+
+resize:none;
+
+
+}
+
+
+
+label {
+
+
+display:block;
+
+margin-top:20px;
+
+margin-bottom:8px;
+
+color:#5d4037;
+
+font-weight:600;
+
+
+}
+
+
+
+.create-btn {
+
+
+margin-top:30px;
+
+width:100%;
+
+padding:15px;
+
+border:none;
+
+border-radius:15px;
+
+background:#6d4c41;
+
+color:white;
+
+font-size:18px;
+
+font-weight:bold;
+
+cursor:pointer;
+
+transition:0.3s;
+
+
+}
+
+
+
+.create-btn:hover {
+
+
+background:#4e342e;
+
+transform:translateY(-3px);
+
+
+}
+
+
+
+@media(max-width:700px){
+
+.form-grid{
+
+grid-template-columns:1fr;
+
+}
+
+
+.job-form-card{
+
+width:100%;
+
+}
+
+
+}
